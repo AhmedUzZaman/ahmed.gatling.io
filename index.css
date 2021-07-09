@@ -127,6 +127,7 @@ ol li {
 }
 
 .Audi {
+    float: left;
     height: auto;
     width: 75%;
 }
