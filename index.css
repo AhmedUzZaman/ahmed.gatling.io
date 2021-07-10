@@ -126,16 +126,16 @@ ol li {
     font-weight: 600;
 }
 
-.car-content {
+/* .car-content {
     float:left;
-    /* display: inline-block; */
+    display: inline-block;
     margin: 5px;
     padding: 5px;
     border: 5px;
     width: 100%; 
     background-color: #fff;
     border-radius: 5px;
-}
+} */
 
 /* .leftcar {
     float: left;
