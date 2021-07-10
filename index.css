@@ -138,6 +138,7 @@ ol li {
 
 #car-left {
     clear:left;
+    display:inline-block;
     width: 40%;
     padding: 10px;
     margin: 5px;
