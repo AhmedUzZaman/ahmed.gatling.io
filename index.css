@@ -137,7 +137,7 @@ ol li {
 }
 
 #car-left {
-    display: grid;
+    display: flex;
     width: 40%;
     padding: 10px;
     margin: 5px;
