@@ -137,8 +137,8 @@ ol li {
     /* align-items: center; */
 }
 
-.car-left {
-    /* float:left; */
+/* .car-left {
+    float:left;
     width: 40%;
     display: flex;
     padding: 10px;
@@ -146,4 +146,5 @@ ol li {
     border: 5px;
     background-color: #e9ecef;
     border-radius: 5px;
-}
+} 
+*/
