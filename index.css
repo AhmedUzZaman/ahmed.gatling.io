@@ -127,7 +127,7 @@ ol li {
 }
 
 .car-content {
-    float:inline-start;
+    float:left;
     /* display: inline-block; */
     margin: 5px;
     padding: 5px;
