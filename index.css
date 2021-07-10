@@ -127,7 +127,6 @@ ol li {
 }
 
 .car-content {
-    /* float:left; */
     margin: 5px;
     padding: 5px;
     border: 5px;
@@ -137,12 +136,8 @@ ol li {
 }
 
 #car {
-    clear:left;
-    display:flex;
-    width: 40%;
-    padding: 10px;
     margin: 5px;
+    padding: 5px;
     border: 5px;
-    background-color: red;
-    border-radius: 5px;
-} 
+    display: flex;
+}
