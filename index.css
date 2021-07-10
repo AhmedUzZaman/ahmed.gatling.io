@@ -135,4 +135,5 @@ ol li {
     border: 5px;
     background-color: beige;
     border-radius: 5px;
+    align-items: center;
 }
