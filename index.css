@@ -139,7 +139,7 @@ ol li {
 
 .car-left {
     float: left;
-    clear: left;
+    clear: both;
     width: 40%;
     display: flex;
     padding: 10px;
