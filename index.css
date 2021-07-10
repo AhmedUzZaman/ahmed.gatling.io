@@ -134,5 +134,16 @@ ol li {
     width: 65%; 
     background-color: #fff;
     border-radius: 5px;
-    align-items: center;
+    /* align-items: center; */
+}
+
+.car-left {
+    float: left;
+    width: 40%;
+    display: contents;
+    padding: 10px;
+    margin: 5px;
+    border: 5px;
+    background-color: #e9ecef;
+    border-radius: 5px;
 }
