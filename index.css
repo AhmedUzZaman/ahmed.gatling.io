@@ -4,7 +4,7 @@ body {
 }
 
 .rainbow {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Tokyo Zoo', cursive;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     color: transparent;
     background-clip: text;
@@ -23,7 +23,7 @@ header {
     padding: 5px;
     font-size: 1.5em;
     text-align: center;
-    background-color: #281B2D;
+    background-image: radial-gradient(#fff,#ddbea9);
 
 }
 
@@ -32,8 +32,8 @@ header {
     border: 5px;
     padding: 10px;
     font-size: 48px;
-    color: #FCD801;
-    background-color: #281B2D;
+    color: #197278;
+    background-color: #ddbea9;
     border-bottom-style: solid;
     border-bottom-color: #00C54C;
     border-radius: 5px;
@@ -53,20 +53,24 @@ header {
     float: left;
     margin: 5px;
     padding: 5px;
-    border: 5px;
+    border: 5px solid green;
     width: 65%; 
     background-color: #fff;
     border-radius: 5px;
 }
  
 .sidebar {
-    float: right;
     padding: 5px;
     margin: 5px;
-    border: 5px;
+    border: 5px solid green;
     width: 30%;
-    background-color: #fadde1 ;
+    background-color: #e9ecef ;
     border-radius: 5px;
+    top: 137px;
+    right: 15px;    
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
 }
 
 .left {
@@ -83,15 +87,16 @@ header {
 .right {
     float: right;
     width: 50%;
-    padding: 10px;
-    margin: 5px;
-    border: 5px;
-    background-color: #cddafd;
+    padding: 50px 10px 50px 10px;
+    margin: 15px;
+    border: 15px;
+    background-image: linear-gradient(#00b4d8, lightblue);
     border-radius: 5px;
-} 
+}
 
 a {
-    color: #9d0208;
+    color: #197278;
+    text-decoration: none;
 }
 
 #source-size {
@@ -100,7 +105,7 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: #3da5d9;
     font-size: 1.5em;
 }
 
@@ -118,7 +123,7 @@ ul li {
 
 li:hover {
     font-size: 1.25em;
-    color: tomato;
+    color: #3da5d9;
 }
 
 ol li {
@@ -128,12 +133,12 @@ ol li {
 
 .leftcar {
     float: left;
-    width: 80%;
-    display: flex;
+    width: auto;
     padding: 10px;
-    margin: 5px;
-    border: 5px;
+    margin: 10px;
+    border: 10px solid #48cae4;
     background-color: beige;
     border-radius: 5px;
-    align-items: center;
+    position: relative;
+    text-align:left;
 }
